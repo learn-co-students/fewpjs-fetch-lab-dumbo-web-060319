@@ -1,10 +1,4 @@
 function fetchBooks() {
-  // fetch('https://anapioficeandfire.com/api/books')
-  //   .then (renderBooks(resp) {
-  //     return response.json();
-  //   })
-  //   .then (renderBooks(json){
-  //   })
   fetch('https://anapioficeandfire.com/api/books')
     // .then(function(response) {
     //   return response.json();
