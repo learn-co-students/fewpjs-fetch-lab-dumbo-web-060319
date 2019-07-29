@@ -1,5 +1,9 @@
 function fetchBooks() {
-
+  fetch('http://anapioficeandfire.com/api/books', {
+    mode: 'no-cors'
+  })
+  .then(response => response.json())
+  .then(data => renderBooks(data))
 }
 
 function renderBooks(json) {
